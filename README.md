@@ -25,7 +25,7 @@ gcc main.c ieee754_alu.c ieee754_rounding.c -o fpu_validator -lm
 
 # Run the validation testbench
 ./fpu_validator
-
+```
 ## Validation Output Example
 
 + The testbench outputs a direct comparison between the simulated bit-string and the host CPU output, raising a Match or Mismatch state:
