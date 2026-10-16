@@ -25,7 +25,6 @@ gcc main.c ieee754_alu.c ieee754_rounding.c -o fpu_validator -lm
 
 # Run the validation testbench
 ./fpu_validator
-```bash
 
 ## Validation Output Example
 
